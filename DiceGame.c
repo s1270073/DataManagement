@@ -3,7 +3,11 @@
 int main(){
 
   int die1,die2,total=0;
+  char name[20];
 
+  printf("What is your name?\n> ");
+  scanf("%s",name);
+  printf("Hello, %s!",name);
   printf("Rolling dice...\n");
   printf("Die 1: ");
   scanf("%d",&die1);
