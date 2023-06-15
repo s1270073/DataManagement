@@ -8,7 +8,7 @@ int main(){
   printf("What is your name?\n> ");
   scanf("%s",name);
   printf("Hello, %s!\n",name);
-  printf("Rolling dice...\n");
+  printf("Rolling the dice...\n");
   printf("Die 1: ");
   scanf("%d",&die1);
   printf("Die 2: ");
@@ -16,10 +16,10 @@ int main(){
   total=die1+die2;
   printf("Total value: %d \n",total);
   if(total>7){
-    printf("You won ");
+    printf("%s won!",name);
   }
   else{
-    printf("You lost ");
+    printf("%s lost!",name);
   }
   
   printf("\n");
